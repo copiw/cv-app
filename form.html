@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="checkLogin()" class="form-page">
+  <div class="container">
+    <div class="left-section pink">
+      <h2>Data Diri</h2>
+      <form id="cvForm">
+        <input type="text" placeholder="Nama" id="name" required />
+        <input type="text" placeholder="Tempat, Tanggal Lahir" id="birth" required />
+        <textarea placeholder="Riwayat Pendidikan (Pisahkan dengan enter)" id="education" required></textarea>
+        <button type="submit">Next</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
